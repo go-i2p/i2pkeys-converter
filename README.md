@@ -14,10 +14,10 @@ git clone https://github.com/go-i2p/i2pkeys-converter.git
 cd i2pkeys-converter
 
 # Build the binary
-make build
+go build
 
-# Or build and install to /usr/local/bin
-make install
+# Or build and install to ~go/bin
+go install github.com/go-i2p/i2pkeys-converter
 ```
 
 ## Usage
